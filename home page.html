@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>home page</title>
+<style>
+a{text-decoration:none;}
+.p{text-align:left; font-size:40px; font-style:normal; color:porple;}
+</style>
+<!-- CSS Files -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+<!-- JS Files -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="js/jquery.tools.min.js"></script>
+<script>
+$(function () {
+    $("#prod_nav ul").tabs("#panes > div", {
+        effect: 'fade',
+        fadeOutSpeed: 400
+    });
+});
+</script>
+<script>
+$(document).ready(function () {
+    $(".pane-list li").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+});
+</script>
+</head>
+<body>
+<div class="header">
+  <div id="site_title">
+  <div class="p">
+  <a href="##"><p>High Fashion</p></a></div></div>
+  <!-- Main Menu -->
+  <ol id="menu">
+    <li class="active_menu_item"><a href="home page,html">Home</a>
+      <!-- sub menu -->
+<ol>
+<li><a href="a">text</a></li>
+<li><a href="b">text</a></li>
+<li><a href="c">text</a></li>
+<li><a href="d">text</a></li>
+</ol></li>
+<!---end sub menu--->
+<li><a href="About us.html">ABOUT US</a>
+<!---sub menu-->
+<ol>
+<li><a href="profile.html">profile</a></li>
+<li><a href="f">text</a></li>
+
+</ol></li>
+<!---end sub menu---->
+<li><a href="fde out.html">Element</a></li>
+<li><a href=" Gallery.html">Gallery</a>
+<!--sub menu gallery-->
+<ol>
+<li><a href="Simple Gallery.html">Simple Gallery</a></li>
+<li><a href="l">text</a></li>
+<li><a href="m">text</a></li>
+
+</ol></li>
+<!--end sub menu gallery--->
+<li><a href="Contact.html">Contact</a></li>
+</ol>
+    <!-- END sub menu -->
+</div>
+<!-- END header -->
+<div id="container">
+  <!-- tab panes -->
+  <div id="prod_wrapper">
+    <div id="panes">
+      <div> <img src="img/large/1.jpg" alt="" width="470" height="300">
+        <h1>Welcome to our site</h1>
+        <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+      <div> <img src="img/large/2.jpg" alt="" width="470" height="300">
+       <h1>Welcome to our site</h1>
+     <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+      <div> <img src="img/large/4.jpg" alt="" width="470" height="300">
+       <h1>Welcome to our site</h1>
+     <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+      <div> <img src="img/large/5.jpg" alt="" width="470" height="300">
+       <h1>Welcome to our site</h1>
+       <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+      <div> <img src="img/large/6.jpg" alt="" width="470" height="300">
+       <h1>Welcome to our site</h1>
+        <h2>Supercar</h2>
+      <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+    </div>
+    <!-- END tab panes -->
+    <div style="clear:both"></div>
+    <!-- navigator -->
+    <div id="prod_nav">
+      <ul>
+        <li><a href="#1"> <img src="img/large/1.jpg" width="160" height="100" alt=""><strong>Class aptent</strong></a></li>
+        <li><a href="#2"><img src="img/large/2.jpg" width="160" height="100"  alt=""><strong>Sed dui risus</strong> </a></li>
+        <li><a href="#3"><img src="img/large/4.jpg" width="160" height="100"  alt=""><strong>Pellentesque quis</strong></a></li>
+        <li><a href="#4"><img src="img/large/5.jpg" width="160" height="100"  alt=""><strong>Mauris elementum</strong> </a></li>
+        <li><a href="#5"><img src="img/large/6.jpg" width="160" height="100"  alt=""><strong>Cras et malesuada</strong></a></li>
+      </ul>
+    </div>
+
+</body>
+</html>

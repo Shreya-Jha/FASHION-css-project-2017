@@ -1,0 +1,91 @@
+*{margin:0px; padding:0px;}
+body{background-color:#F3EFEF;}
+.main{width:1000px;
+ height:930px;
+  background-color:#FFF; border:solid 1px #000000;  }
+  
+.topareya{width:1000px;
+ height:30px;
+  background-color:#CCC;}
+  
+.main3{width:1000px;
+ height:800px;
+  background-color:#FFF; }
+  
+.mobile{width:1000px;
+ height:64px; 
+ background-color:#FFF;}
+ 
+.card{width:90px;
+ height:30px;
+  background-color:#FFF;
+   float:right;
+    margin-right:20px;
+	 border:solid 1px #333;
+	  margin-top:15px;
+	   text-align:center;}
+	   
+.card:hover{background-color:#729df6;
+ color:#FFF;}
+
+.heading{width:1000px; height:38px; background-color:#FFF; }
+.heading:hover{color:#FFF;}
+.mm{text-decoration:none; color:#000;}
+.mm:hover{color:#FFF; background-color:#729df6;}
+li{display:inline; float:left; float:left; padding:10px 15px;}
+li:hover{background-color:#729df6; color:#FFF;}
+li:hover > a{color:#FFF;}
+
+.ab{list-style:none; margin-left:10px; margin-bottom:30px; }
+.ab li{width:60px; padding:6px 12px; background-color:#50A6F; background-color:#729df6;   border:solid 1px #090909; }
+.ab > a{width:125px; height:25px;}
+ul.ab{display:none; padding:10px 0px;
+ position:absolute;}
+ul li:hover .ab{
+	display:block;}
+	
+.shopareya{width:1000px;
+ height:60px;
+ background-color:#729df6;
+  text-align:center;
+   color:#FFF;
+   margin-top:2px;}
+
+.middleareya{width:1000px; height:500px;}
+.leftareya{width:440px;
+ height:500px;
+ 
+   float:left;}
+.contactareya{width:510px;
+ height:500px;
+  
+   float:left;}
+   .inputttext{height:25px; width:400px; text-align:center; font-size:24px;}
+   .message{height:120px; width:400px; text-align:center; font-size:24px;}
+   .textsize{font-size:24px; color:#333;  margin-top:10px; }
+   .ub{width:80px; height:40px;}
+   
+   .fooderpart{width:1000px; height:240px; background-color:#333;  }
+.electronic{width:148px; height:200px; background-color:#333; float:left; margin-left:10px;}
+.user{width:174px; height:200px; background-color:#333; float:left; margin-left:45px; }
+.cati{width:174px; height:200px; background-color:#333; float:left; margin-left:29px;}
+.newsletter{width:286px; height:200px; background-color:#333; float:left; margin-left:30px;}
+.type{height:30px;}
+.newsletter:hover{color:#0C9;}
+.subscribe{height:30px; background-color:#06C; border:none;}
+.subscribe:hover{ background-color:#000; color:#FFF; border:none;}
+.home{color:#FFF;}
+.home:hover{color:#0C9; size:9px;}
+.yproduct{width:650px; height:400px;}
+
+.column1{width:300px; height:40px; background-color:#CCC; float:left; border:solid 1px #333; border-bottom:none; border-Right:none;}
+.column2{width:300px; height:40px; background-color:#CCC; float:left; border:solid 1px #333;border-bottom:none;}
+.column3{width:300px; height:40px; background-color:#FFF; float:left; border:solid 1px #333;border-bottom:none; border-Right:none;}
+.column4{width:300px; height:40px; background-color:#FFF; float:left; border:solid 1px #333;border-bottom:none;}
+.column5{width:300px; height:40px; background-color:#CCC; float:left; border:solid 1px #333;border-bottom:none; border-Right:none;}
+.column6{width:300px; height:40px; background-color:#FFF; float:left; border:solid 1px #333;border-bottom:none;}
+.column7{width:300px; height:40px; background-color:#CCC; float:left; border:solid 1px #333;border-bottom:none; border-Right:none;}
+.column8{width:300px; height:40px; background-color:#FFF; float:left; border:solid 1px #333;border-bottom:none;}
+.column9{width:300px; height:40px; background-color:#CCC; float:left; border:solid 1px #333; border-Right:none;}
+.column10{width:300px; height:40px; background-color:#FFF; float:left; border:solid 1px #333}
+
